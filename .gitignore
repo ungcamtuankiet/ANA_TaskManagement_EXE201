@@ -1,0 +1,16 @@
+# Bỏ qua các thư mục build và cache
+bin/
+obj/
+*.cache
+*.log
+
+# Bỏ qua các file cấu hình tạm thời của dự án
+project.nuget.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.assets.json
+
+# Bỏ qua các tệp thư viện và gói cài đặt
+*.dll
+*.exe
+*.pdb
+*.dSYM
